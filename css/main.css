@@ -20,11 +20,9 @@ header h1 a{
 }
 
 .hero{
-    height: 100vh;
     background: url(../images/hero-bg.jpg) center;
     background-size: cover;
     position: relative;
-    padding-top: 50px;
 }
 .hero .hero-overlay{
     position: absolute;
@@ -37,7 +35,10 @@ header h1 a{
 .hero .container{
     position: relative;
 }
-
+.hero .container .hero-row{
+    height: 100vh;
+    padding-top: 50px;
+}
 .hero h1{
     color: #fff;
     font-size: 28px;
@@ -77,7 +78,7 @@ header h1 a{
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .hero{
+    .hero .container .hero-row{
         height: 80vh;
     }
     .hero h1{
