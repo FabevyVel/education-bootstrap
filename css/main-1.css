@@ -66,24 +66,6 @@ header h1 a{
     background-color: #5fcf80;
     border: 2px solid #5fcf80;
 }
-.statistics{
-    background-color: #f6f7f6;
-    padding: 30px 0;
-    overflow: hidden;
-}
-.statistics .counters span{
-    font-size: 48px;
-    display: block;
-    color: #5fcf80;
-    font-weight: 700;
-}
-.statistics .counters p{
-    margin: 0 0 20px 0;
-    font-family: "raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: #37423b;
-}
 
 
  /* X-Small devices (portrait phones, less than 576px)

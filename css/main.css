@@ -67,45 +67,6 @@ header h1 a{
     border: 2px solid #5fcf80;
 }
 
-/* ABOUT-SECTION */
-
-.about-section h3{
-    color: #444444;
-    font-weight: 600;
-    font-size: 26px;
-    font-family: "Raleway", sans-serif;
-}
-.about-section p{
-    color: #444444;
-    font-size: 16px;
-}
-.about-section ul{
-    padding: 10px 0;
-}
-.about-section li{
-    list-style-type: none;
-    padding-bottom: 16px;
-}
-.about-section i{
-    position: relative;
-    top: 3px;
-    padding-right: 5px;
-    color: #5fcf80;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */

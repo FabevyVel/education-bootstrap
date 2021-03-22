@@ -1,5 +1,5 @@
 body{
-    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 header{
     background-color: #fff;
@@ -67,7 +67,62 @@ header h1 a{
     border: 2px solid #5fcf80;
 }
 
+/* why-us-section */
+section{
+    padding-top: 60px;
+}
 
+h3{
+    font-family: "Raleway", sans-serif;
+}
+.why-us .container .content{
+    padding: 30px;
+    background: #5fcf80;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.why-us .content h3{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.why-us .content p{
+    margin-bottom: 30px;
+}
+.why-us .content .btn{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    color: #fff;
+    padding: 6px 30px 8px 30px;
+}
+
+.why-us .container .box{
+    text-align: center;
+    padding: 40px 30px;
+    border: 1px solid #eef0ef;
+    margin-top: 24px;
+}
+.why-us .container .box i{
+    font-size: 32px;
+    color: #5fcf80;
+    padding: 18px;
+    background: #ecf9f0;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.why-us .container .box h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #444444;
+}
+.why-us .container .box p{
+    font-size: 15px;
+    color: #848484;
+}
  /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
 
@@ -93,7 +148,9 @@ header h1 a{
 
 /* // Large devices (desktops, 992px and up - lg) */
 @media (min-width: 992px) { 
- 
+    .why-us .container .content {
+    height: 900px;
+    }
 }
 
 /* // Large devices (desktops, 1024px and up) */
@@ -106,7 +163,9 @@ header h1 a{
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    
+.why-us .container .content {
+    height: 100%;
+}
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
