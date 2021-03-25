@@ -32,6 +32,7 @@ ul {
     border-radius: 50px;
     margin-left: 22px;
     background: #5fcf80;
+    border-style: none;
 }
 
 #navbar a {
@@ -50,7 +51,7 @@ ul {
     line-height: 0;
 }
 
-/* <-- media queries --> */
+/* <-- header media queries --> */
 
 @media (min-width: 320px) {
     #header nav {
@@ -58,7 +59,7 @@ ul {
     }
 
     #header .btn-primary {
-        padding: 5px 18px;
+        padding: 6px 18px;
     }
 
     #header .get-button {
@@ -67,6 +68,72 @@ ul {
     }
 }
 
+@media (min-width: 576px) {
+    #header .mobile-nav-toggle  {
+       text-align: end;
+    }
+
+    #header .get-button {
+        text-align: end;
+        padding: 0;
+        margin-left: -7px;
+    }
+
+    #header .btn-primary {
+        padding: 6px 19px;
+        margin-right: 2px;
+        
+    }
+}
+
+@media (min-width: 768px) {
+
+    #header .btn-primary {
+        padding: 6px 19px;
+        margin-right: -7px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    #header nav {
+        display: initial;
+     }
+
+     .mobile-nav-toggle {
+         display: none;
+     }
+
+     #header .btn-primary {
+        margin-right: -126px;
+     }
+
+     #header nav {
+        margin-left: -30px;
+     }
+}
+
+@media (min-width: 1200px) {
+    
+    
+    #header .btn-primary {
+        margin-right: -107px;
+     }
+
+     #header .btn-primary {
+        padding: 8px 24px;
+    }
+
+     #header nav {
+        margin-left: -25px;
+    }
+
+    #header .btn-primary {
+        margin-right: -111px;
+    }
+}
+
+
 @media (min-width: 1400px) {
 
     #header nav {
@@ -74,7 +141,8 @@ ul {
      }
 
     #header .get-button {
-        text-align: end;
+        text-align: start;
+        margin-left: -20px;
     }
 
     #header .btn-primary {
@@ -84,9 +152,14 @@ ul {
     #header .mobile-nav-toggle {
         display: none;
     }
+
+    #header .btn-primary {
+        padding: 6px 24px;
+    }
 }
 
 /* <====== breadcrumbs ======> */
+
 .breadcrumb h2 {
     font-family: 'Raleway', sans-serif;
 }
@@ -100,7 +173,7 @@ ul {
     margin-bottom: 0;
 }
 
-/* <--- media queries --> */
+/* <--- breadcrumb media queries --> */
 
 @media (min-width: 320px) {
     .breadcrumb h2 {
@@ -110,7 +183,28 @@ ul {
     .breadcrumb {
         margin-top: 63px;
     }
+}
 
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    .breadcrumb {
+        margin-top: 73px;
+    }
+}
+
+@media (min-width: 1400px) {
+    
 }
 
 
@@ -191,16 +285,51 @@ section {
     line-height: 1;
 }
 
-/* <--- media queries ---> */
+/* <--- course media queries ---> */
 
 @media (min-width: 320px) {
 
-    #course .course-items {
+    #course .course-con {
         margin-top: 1.5rem;
     }
 
-    
+    #course .container {
+        margin-top: -1.5rem;
+    }
+}
 
+@media (min-width: 576px) {
+    
+    #course .container {
+        margin-top: -1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    #course .course-con {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    #course .course-content h3 {
+        font-size: 19px;
+    }
+   
+}
+
+@media (min-width: 1200px) {
+     
+    #course .course-content h3 {
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    
 }
 
 /* <====== footer menu ======> */ 
@@ -277,7 +406,7 @@ section {
 #footer-menu .footer-newsletter .input-group button {
     border-radius: 50px;
     position: absolute;
-    top: -1px;
+    top: -6px;
     right: -1px;
     bottom: -1px;
     border: 0;
@@ -303,6 +432,33 @@ margin-bottom: 30px;
 
 #footer-menu .footer-links {
     margin-bottom: 30px;
+}
+
+/* <--- footer-menu media queries ---> */
+
+
+@media (min-width: 320px) {
+    
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {
+    
 }
 
 /* <====== footer ======> */
@@ -356,7 +512,7 @@ margin-bottom: 30px;
     border-radius: 50px;
 }
 
-/* <--- media queries ---> */
+/* <--- footer media queries ---> */
 
 @media (min-width: 320px) {
 
@@ -381,5 +537,40 @@ margin-bottom: 30px;
         justify-content: center;
         padding-top: 1rem;
         }
+}
 
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+    #footer .copyright-con .copyright {
+        text-align: start;
+     }
+ 
+     #footer .copyright-con .credits {
+         text-align: start;
+      }
+
+      #footer .so-li {
+          padding-top: 0;
+            justify-content: flex-end;
+      }
+
+      #footer .social-links {
+        padding-right: 8px;
+      }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {
+    
 }
