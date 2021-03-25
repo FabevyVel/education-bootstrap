@@ -15,6 +15,33 @@ a {
 ul {
     list-style: none;
 }
+
+#header {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 0 18px rgb(55 66 59 / 8%);
+}
+
+#header .logo {
+    color: #5fcf80;
+}
+
+#header .btn-primary {
+    border-radius: 50px;
+    margin-left: 22px;
+    background: #5fcf80;
+    padding: 8px 25px;
+
+}
+
+#navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #37423b;
+    white-space: nowrap;
+    padding: 10px 0 10px 30px;
+}
 .breadcrumb h2 {
     font-family: 'Raleway', sans-serif;
 }
@@ -22,6 +49,10 @@ ul {
 .breadcrumb p {
     font-size: 14px;
     margin-bottom: 0px;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
 }
 
 section {
@@ -114,6 +145,10 @@ section {
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
     color: #777777;
+}
+
+#footer-menu h4 {
+    font-family: "Raleway", sans-serif;
 }
 
 #footer-menu .footer-links h4 {
