@@ -124,6 +124,95 @@ h3{
     color: #848484;
 }
 
+/* Contact Us section*/
+
+h2{
+    font-family: "Raleway", sans-serif;
+}
+.contact{
+    padding: 30px 0;
+    background: #5fcf80;
+    color: #fff;    
+}
+.contact h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.contact p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contact-content{
+    margin-top: 5px;
+    padding-bottom: 60px;
+}
+.contact-content iframe{
+    border: 0;
+    width: 100%;
+    height: 350px;
+}
+.contact-content .info{
+    width: 100%;
+    background: #fff;
+}
+.contact-content i{
+    font-size: 20px;
+    color: #5fcf80;
+    float: left;
+    padding: 14px;
+    background-color: #ecf9f0;
+    border-radius: 50px;
+}
+.contact-content h4{
+    padding-left: 60px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #37423b;
+    font-weight: 600;
+}
+.contact-content p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #657a6d;
+    padding-left: 60px;
+}
+.contact-content .row{
+    margin-top: 48px;
+}
+.contact-content .info .email{
+    margin-top: 40px;
+}
+.contact-content .info .phone{
+    margin-top: 40px;
+}
+.contact-content .form-email{
+    width: 100%;
+    background: #fff;
+}
+.contact-content .form-email .form-group{
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+.contact-content .form-email input{
+    height: 44px;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px
+}
+.contact-content .form-email textarea{
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+    height: 127px;
+}
+.contact-content .form-email .text-center .btn{
+    background: #5fcf80;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 50px;
+}
+}
  /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
 
@@ -151,6 +240,9 @@ h3{
 @media (min-width: 992px) { 
     .why-us .container .content {
     height: 900px;
+    }
+    .contact-content .form-email .row{
+        margin-top: 0px;
     }
 }
 
