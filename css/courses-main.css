@@ -194,3 +194,50 @@ margin-bottom: 30px;
 #footer-menu .footer-links {
     margin-bottom: 30px;
 }
+
+#footer {
+    color: #37423b;
+    font-size: 14px;
+    background: #eef0ef;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#footer .credits a {
+    color: #3ac162;
+}
+
+#footer .copyright {
+    margin-right: 100px;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    background: #5fcf80;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 7px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: #5fcf80;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.back-to-top i {
+    font-size: 18px;
+    color: #fff;
+}
