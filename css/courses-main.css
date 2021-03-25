@@ -131,6 +131,11 @@ ul {
     #header .btn-primary {
         margin-right: -111px;
     }
+    
+    #header .mobile-nav-toggle {
+        display: none;
+    }
+
 }
 
 
@@ -149,13 +154,7 @@ ul {
         padding: 8px 25px;
     }
 
-    #header .mobile-nav-toggle {
-        display: none;
-    }
-
-    #header .btn-primary {
-        padding: 6px 24px;
-    }
+    
 }
 
 /* <====== breadcrumbs ======> */
