@@ -16,6 +16,8 @@ ul {
     list-style: none;
 }
 
+/* <====== header ======> */
+
 #header {
     background: #fff;
     padding: 15px 0;
@@ -30,8 +32,6 @@ ul {
     border-radius: 50px;
     margin-left: 22px;
     background: #5fcf80;
-    padding: 8px 25px;
-
 }
 
 #navbar a {
@@ -42,6 +42,51 @@ ul {
     white-space: nowrap;
     padding: 10px 0 10px 30px;
 }
+
+#header .mobile-nav-toggle  {
+    color: #37423b;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 0;
+}
+
+/* <-- media queries --> */
+
+@media (min-width: 320px) {
+    #header nav {
+       display: none;
+    }
+
+    #header .btn-primary {
+        padding: 5px 18px;
+    }
+
+    #header .get-button {
+        text-align: end;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    #header nav {
+        display: initial;
+     }
+
+    #header .get-button {
+        text-align: end;
+    }
+
+    #header .btn-primary {
+        padding: 8px 25px;
+    }
+
+    #header .mobile-nav-toggle {
+        display: none;
+    }
+}
+
+/* <====== breadcrumbs ======> */
 .breadcrumb h2 {
     font-family: 'Raleway', sans-serif;
 }
@@ -54,6 +99,22 @@ ul {
 .breadcrumb {
     margin-bottom: 0;
 }
+
+/* <--- media queries --> */
+
+@media (min-width: 320px) {
+    .breadcrumb h2 {
+        font-size: 32px;
+    }
+
+    .breadcrumb {
+        margin-top: 63px;
+    }
+
+}
+
+
+/* <====== courses section ======> */
 
 section {
     padding: 60px 0;
@@ -129,6 +190,20 @@ section {
     color: #657a6d;
     line-height: 1;
 }
+
+/* <--- media queries ---> */
+
+@media (min-width: 320px) {
+
+    #course .course-items {
+        margin-top: 1.5rem;
+    }
+
+    
+
+}
+
+/* <====== footer menu ======> */ 
 
 #footer-menu {
     padding: 60px 0 30px 0;
@@ -230,6 +305,8 @@ margin-bottom: 30px;
     margin-bottom: 30px;
 }
 
+/* <====== footer ======> */
+
 #footer {
     color: #37423b;
     font-size: 14px;
@@ -262,17 +339,47 @@ margin-bottom: 30px;
     height: 36px;
 }
 
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
 .back-to-top {
     position: fixed;
     right: 15px;
     bottom: 15px;
+    z-index: 996;
     background: #5fcf80;
     width: 40px;
     height: 40px;
     border-radius: 50px;
 }
 
-.back-to-top i {
-    font-size: 18px;
-    color: #fff;
+/* <--- media queries ---> */
+
+@media (min-width: 320px) {
+
+    #footer {
+        position: relative;
+    }
+
+    #footer .copyright {
+        margin-right: 0;
+    }
+
+    #footer .copyright-con .copyright {
+       text-align: center;
+    }
+
+    #footer .copyright-con .credits {
+        text-align: center;
+     }
+
+    #footer .so-li {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        }
+
 }
