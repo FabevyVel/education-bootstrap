@@ -156,10 +156,12 @@ section {
 
 #footer-menu .footer-newsletter p {
     font-size: 15px;
+    color: #37483B;
 }
 
 #footer-menu .footer-newsletter .input-group input {
     border-radius: 50px;
+   
 }
 
 #footer-menu .footer-newsletter .input-group button {
@@ -185,4 +187,10 @@ section {
     text-align: left;
 }
 
+#footer-menu .footer-contact {
+margin-bottom: 30px;
+}
 
+#footer-menu .footer-links {
+    margin-bottom: 30px;
+}
