@@ -1,0 +1,267 @@
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #fff;
+}
+header h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+header h1 a{
+    color: #5fcf80;
+    text-decoration: none;
+}
+
+.hero{
+    background: url(../images/hero-bg.jpg) center;
+    background-size: cover;
+    position: relative;
+}
+.hero .hero-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.3);
+}
+.hero .container{
+    position: relative;
+}
+.hero .container .hero-row{
+    height: 100vh;
+    padding-top: 50px;
+}
+.hero h1{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero h2{
+    color: #eee;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hero a{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 10px 35px;
+}
+
+.hero a:hover{
+    background-color: #5fcf80;
+    border: 2px solid #5fcf80;
+}
+
+/* why-us-section */
+section{
+    margin-top: 60px;
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+}
+.why-us .container .content{
+    padding: 30px;
+    background: #5fcf80;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.why-us .content h3{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.why-us .content p{
+    margin-bottom: 30px;
+}
+.why-us .content .btn{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    color: #fff;
+    padding: 6px 30px 8px 30px;
+}
+
+.why-us .container .box{
+    text-align: center;
+    padding: 40px 30px;
+    border: 1px solid #eef0ef;
+    margin-top: 24px;
+}
+.why-us .container .box i{
+    font-size: 32px;
+    color: #5fcf80;
+    padding: 18px;
+    background: #ecf9f0;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.why-us .container .box h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #444444;
+}
+.why-us .container .box p{
+    font-size: 15px;
+    color: #848484;
+}
+
+/* Contact Us section*/
+
+h2{
+    font-family: "Raleway", sans-serif;
+}
+.contact{
+    padding: 30px 0;
+    background: #5fcf80;
+    color: #fff;    
+}
+.contact h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.contact p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contact-content{
+    margin-top: 5px;
+    padding-bottom: 60px;
+}
+.contact-content iframe{
+    border: 0;
+    width: 100%;
+    height: 350px;
+}
+.contact-content .info{
+    width: 100%;
+    background: #fff;
+}
+.contact-content i{
+    font-size: 20px;
+    color: #5fcf80;
+    float: left;
+    padding: 14px;
+    background-color: #ecf9f0;
+    border-radius: 50px;
+}
+.contact-content h4{
+    padding-left: 60px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #37423b;
+    font-weight: 600;
+}
+.contact-content p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #657a6d;
+    padding-left: 60px;
+}
+.contact-content .row{
+    margin-top: 48px;
+}
+.contact-content .info .email{
+    margin-top: 40px;
+}
+.contact-content .info .phone{
+    margin-top: 40px;
+}
+.contact-content .form-email{
+    width: 100%;
+    background: #fff;
+}
+.contact-content .form-email .form-group{
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+.contact-content .form-email input{
+    height: 44px;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px
+}
+.contact-content .form-email textarea{
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+    height: 127px;
+}
+.contact-content .form-email .text-center .btn{
+    background: #5fcf80;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 50px;
+}
+}
+ /* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up - sm) */
+@media (min-width: 576px) {
+    
+}
+
+ /* Medium devices (tablets, 768px and up - md) */
+@media (min-width: 768px) {
+    .hero .container .hero-row{
+        height: 80vh;
+    }
+    .hero h1{
+        font-size: 48px;
+        line-height: 56px;
+     }  
+     .hero h2{
+        font-size: 24px;
+        line-height: 1.2;
+    } 
+}
+
+/* // Large devices (desktops, 992px and up - lg) */
+@media (min-width: 992px) { 
+    .why-us .container .content {
+    height: 900px;
+    }
+    .contact-content .form-email .row{
+        margin-top: 0px;
+    }
+}
+
+/* // Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) { 
+    .hero {
+        background-attachment: fixed;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.why-us .container .content {
+    height: 100%;
+}
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }

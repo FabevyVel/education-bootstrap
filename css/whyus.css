@@ -1,5 +1,5 @@
 body{
-    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 header{
     background-color: #fff;
@@ -67,6 +67,62 @@ header h1 a{
     border: 2px solid #5fcf80;
 }
 
+/* why-us-section */
+section{
+    margin-top: 60px;
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+}
+.why-us .container .content{
+    padding: 30px;
+    background: #5fcf80;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.why-us .content h3{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.why-us .content p{
+    margin-bottom: 30px;
+}
+.why-us .content .btn{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    color: #fff;
+    padding: 6px 30px 8px 30px;
+}
+
+.why-us .container .box{
+    text-align: center;
+    padding: 40px 30px;
+    border: 1px solid #eef0ef;
+    margin-top: 24px;
+}
+.why-us .container .box i{
+    font-size: 32px;
+    color: #5fcf80;
+    padding: 18px;
+    background: #ecf9f0;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.why-us .container .box h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #444444;
+}
+.why-us .container .box p{
+    font-size: 15px;
+    color: #848484;
+}
 
  /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
@@ -91,61 +147,11 @@ header h1 a{
     } 
 }
 
-/* Events section */
-.events-title{
-    text-align: center;
-    background: #5fcf80;
-    padding: 30px 0;
-    color: #fff;
-}
-.events-title .events-heading h2{
-    font-size: 32px;
-    font-weight: 500;
-}
-.events-title .events-heading p{
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.events{
-    padding: 60px 0;
-}
-.events .events-card{
-    padding: 0 30px;
-    margin-bottom: 60px;
-}
-.events .card-img{
-    width: calc(100% + 60px);
-    margin-left: -30px;
-}
-.events .card-img img{
-    max-width: 100%;
-} 
-.events .card-content{
-    position: relative;
-    background: #fff;
-    border-top: 4px solid #fff;
-    padding: 30px;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-    margin-top: -60px;
-}
-.events h5{
-    color: #37423b;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.events p{
-    text-align: center;
-    color: #5e5e5e;
-}
-.events .para{
-    text-align: left;
-}
-
 /* // Large devices (desktops, 992px and up - lg) */
 @media (min-width: 992px) { 
- 
+    .why-us .container .content {
+    height: 900px;
+    }
 }
 
 /* // Large devices (desktops, 1024px and up) */
@@ -158,7 +164,9 @@ header h1 a{
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    
+.why-us .container .content {
+    height: 100%;
+}
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
